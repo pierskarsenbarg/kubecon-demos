@@ -1,0 +1,7 @@
+name: kubecon-offline-demo-ts
+runtime: nodejs
+description: Kubernetes demo running on kind cluster
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: kubernetes-typescript
